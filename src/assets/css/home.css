@@ -1,0 +1,102 @@
+/* FORMAT */
+
+.section-1 {
+    height: 730px !important;
+    padding-top: 130px;
+}
+.section-2 {
+    height: 500px !important;
+}
+.section-3 {
+    height: 530px !important;
+}
+
+/* BACKGROUNDS */
+
+#bg-cup {
+    background-image: url(../background/bg-cup-lg.jpg);
+}
+
+/* BUTTONS */
+
+.carousel button:hover {
+    transition: color 0.3s ease;
+    background-color: #d19d6c;
+}
+.button-hover-white:hover {
+    transition: color 0.3s ease;
+    color: #e5e5e5;
+}
+.button-hover-secondary:hover {
+    transition: color 0.3s ease;
+    color: #d9a777;
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 992px) {
+    
+    /* FORMAT */
+    
+    .section-1 {
+        height: 630px !important;
+    }
+    .section-2 {
+        height: 400px !important;
+    }
+    .section-3 {
+        height: 450px !important;
+    }
+
+    /* PRODUCTS */
+
+    .img-product-1 {
+        width: 150px;
+        height: 150px;
+        margin-top: 0px;
+        transform: translateY(30px);
+    }
+    .card-description-1 {
+        width: 200px;
+    }
+
+    /* BACKGROUNDS*/
+
+    #bg-cup {
+        background-image: url(../background/bg-cup-sm.jpg);
+    }
+    #bg-product {
+        background-image: url(../img/products/product-template-sm.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 575px) {
+    
+    /* FORMAT */
+    
+    .section-1 {
+        height: 485px !important;
+        padding-top: 90px;
+    }
+    .section-2 {
+        height: 350px !important;
+    }
+    .section-3 {
+        height: 360px !important;
+    }
+
+    /* BACKGROUDS */
+
+    #bg-cup {
+        background-image: url(../background/bg-cup-xs.jpg);
+    }
+    #bg-product {
+        background-image: url(../img/products/product-template-xs.png);
+    }
+
+}
