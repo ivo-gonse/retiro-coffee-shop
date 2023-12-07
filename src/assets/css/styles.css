@@ -1,5 +1,8 @@
 /* FORMAT */
 
+html, body {
+    scroll-behavior: auto !important;
+}
 body {
     font: Merriweather Sans;
     font-size: 22px;

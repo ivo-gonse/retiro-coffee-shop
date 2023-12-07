@@ -74,6 +74,72 @@ const Home = () => {
                 </div>
             </div>
 
+            <div id="bg-coffee" class="section-2 bg-img-1 d-flex flex-column align-items-center justify-content-center text-center px-4">
+                <h4 class="secondary fw-bold mb-4">Conocé más de nosotros</h4>
+                <p class="secondary mx-4 d-none d-sm-block py-lg-2" style={{ maxWidth: '900px' }}>
+                    Hace ya un siglo que comprometemos nuestra pasión y dedicación en ofrecer productos de 
+                    la más alta calidad, una tradición que perdura y en la que seguimos creyendo firmemente.
+                </p>
+                <p class="secondary mx-4 d-block d-sm-none" style={{ maxWidth: '900px' }}>
+                    Hace ya un siglo que comprometemos nuestra pasión y dedicación en ofrecer productos de la más alta calidad.
+                </p>
+                <p class="secondary mb-lg-4">Enterate más de nuestra historia.</p>
+                <Link to="/quienes-somos" class="button-hover-white white text-decoration-none d-flex justify-content-center">
+                    <p class="fw-bold fst-italic pe-2">Quienes somos</p>
+                    <i class="bi bi-box-arrow-up-right fw-bold"></i>
+                </Link>
+            </div>
+
+            <div class="section-3 bg-white d-flex flex-column align-items-center justify-content-center text-center">
+                <h4 class="black fw-bold mb-2 mb-lg-4 mb-lg-5 w-lg-100 px-3 px-lg-0">Los productos preferidos de nuestros clientes:</h4>
+                <div class="d-flex mb-4">
+                    
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center px-2 px-sm-4 px-xl-5">
+                        <div>
+                            <img src={product4} class="img-product-1"/>
+                        </div>
+                        <div class="card-description-1 bg-4">
+                            <p class="mt-5 name"><strong>Café Arabica</strong><br/>300g</p>
+                            <div class="pt-sm-1 pb-1 pb-sm-2 d-flex justify-content-center mb-2 mb-sm-3">
+                                <div class="fw-bold fst-italic">~</div> 
+                                <div class="fw-bold fst-italic px-1">6500$</div>
+                                <div class="fw-bold fst-italic">~</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center px-2 px-sm-4 px-xl-5">
+                        <div>
+                            <img src={product2} class="img-product-1"/>
+                        </div>
+                        <div class="card-description-1 bg-4">
+                            <p class="mt-5 name"><strong>Café Molido</strong><br/>400g</p>
+                            <div class="pt-sm-1 pb-1 pb-sm-2 d-flex justify-content-center mb-2 mb-sm-3">
+                                <div class="fw-bold fst-italic">~</div> 
+                                <div class="fw-bold fst-italic px-1">6300$</div>
+                                <div class="fw-bold fst-italic">~</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-none d-md-block">
+                        <div class="d-flex flex-column align-items-center justify-content-center text-center px-2 px-sm-4 px-xl-5">
+                            <div>
+                                <img src={product3} class="img-product-1"/>
+                            </div>
+                            <div class="card-description-1 bg-4">
+                                <p class="mt-5 name"><strong>Café Robusta</strong><br/>400g</p>
+                                <div class="pt-sm-1 pb-1 pb-sm-2 d-flex justify-content-center mb-2 mb-sm-3">
+                                    <div class="fw-bold fst-italic">~</div>
+                                    <div class="fw-bold fst-italic px-1">7000$</div>
+                                    <div class="fw-bold fst-italic">~</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </body>
     )
 }
