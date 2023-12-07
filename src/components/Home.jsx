@@ -15,6 +15,22 @@ import product3 from '../assets/img/products/product-3.png'
 import cafetera from '../assets/background/bg-cafetera.jpg'
 
 const Home = () => {
+
+    useEffect(() => {
+        const emailInput = document.getElementById('email-input');
+        const clearButton = document.getElementById('clear-button');
+
+        clearButton.addEventListener('click', () => {
+            emailInput.value = '';
+        });
+
+        return () => {
+            clearButton.removeEventListener('click', () => {
+                emailInput.value = '';
+            });
+        };
+    }, []);
+
     return (
         <body>
             <div id="bg-cup" class="section-1 bg-img-1 d-flex flex-column align-items-center justify-content-center fw-bold fst-italic">
@@ -137,6 +153,34 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="section-2 row g-0 bg-2">
+                <div class="col-12 col-md-6 col-lg-5 d-flex flex-column justify-content-center text-center px-5">
+                    <h4 class="primary fw-bold mb-4">Contactanos</h4>
+                    <p class="primary">¡Estamos a tu dispocición!<br />Ante cualquier duda o consulta<br />escribinos a nuestro mail:</p>
+                    <p class="primary fw-bold">retirocoffeeshop@gmail.com</p>
+                    <p class="primary">También podes contarnos tus<br />inquietudes aca:</p>
+                    <Link to="/contacto" class="button-hover-white white text-decoration-none d-flex justify-content-center">
+                        <p class="fw-bold fst-italic pe-2">Contacto</p>
+                        <i class="bi bi-box-arrow-up-right fw-bold"></i>
+                    </Link>
+                </div>
+                <div class="col-7 d-none d-lg-block my-auto text-center">
+                    <img class="bg-img-2" src={cafetera}/>
+                </div>
+                <div class="col-6 d-none d-md-block d-lg-none my-auto text-center">
+                    <img id="bg-coffee-machine-md" class="bg-img-2" src={cafetera}/>
+                </div>
+            </div>
+
+            <div id="bg-coffee-bag" class="section-2 bg-img-1 d-flex flex-column align-items-center justify-content-center text-center px-4">
+                <h4 class="secondary fw-bold mb-4">¡Suscribite a nuestra Newsletter!</h4>
+                <p class="secondary mx-4" style={{ maxWidth: '900px' }}>Dejanos tu mail para estar al tanto de todas nuestras novedades y promociones.</p>
+                <div id="email-bar" class="p-1 py-2 py-sm-5">
+                    <input type="text" class="input-home" id="email-input" placeholder="Enter your Email" />
+                    <button class="button button-hover fw-bold" id="clear-button">Suscribirse</button>
                 </div>
             </div>
 

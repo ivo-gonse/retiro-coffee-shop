@@ -18,6 +18,31 @@
 }
 #bg-coffee {
     background-image: url(../background/bg-coffee-lg.jpg);
+}#bg-coffee-machine-md {
+    padding: 40px 40px 40px 0;
+}
+#bg-coffee-bag {
+    background-image: url(../background/bg-coffee-bag-lg.jpg);
+}
+.bg-img-2 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* EMAIL INPUT */
+
+#email-bar input[type='text'] {
+    padding-right: 10px;
+}
+.input-home {
+    width: 400px;
+    height: 40%;
+    font: Merriweather Sans;
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+    outline: none;
 }
 
 /* CAROUSEL */
@@ -95,6 +120,11 @@
     }
     #bg-coffee {
         background-image: url(../background/bg-coffee-sm.jpg);
+    }#bg-coffee-bag {
+        background-image: url(../background/bg-coffee-bag-sm.jpg);
+    }
+    .bg-img-2 {
+        height: 400px;
     }
 
     /* CAROUSEL */
@@ -128,6 +158,14 @@
         width: 200px;
     }
 
+    /* EMAIL INPUT */
+
+    .input-home {
+        width: 325px;
+        height: 35%;
+        font-size: 14px;
+    }
+    
 }
 
 /* ------------------------------------------ */
@@ -157,6 +195,8 @@
     }
     #bg-coffee {
         background-image: url(../background/bg-coffee-xs.jpg);
+    }#bg-coffee-bag {
+        background-image: url(../background/bg-coffee-bag-xs.jpg);
     }
 
     /* PRODUCTS */
@@ -170,6 +210,14 @@
     .card-description-1 {
         width: 130px;
         font-size: 14px;
+    }
+
+    /* EMAIL INPUT */
+
+    .input-home {
+        width: 250px;
+        height: 30%;
+        font-size: 12px;
     }
 
 }
