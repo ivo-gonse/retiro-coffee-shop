@@ -38,6 +38,42 @@ const Home = () => {
                     <img src={productTemplateLg}/>
                 </div>
             </div>
+
+            <div class="section-2 row g-0 bg-2">
+                <div class="col-7 d-none d-md-block">
+                    <div id="carousel-1" class="carousel slide d-flex justify-content-center text-center">
+                        <button class="arrow" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+                            <i class="bi bi-caret-left-fill white"></i>
+                        </button>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src={cafeteria1} class="carousel-img"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src={cafeteria2} class="carousel-img"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src={cafeteria3} class="carousel-img"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src={cafeteria4} class="carousel-img"/>
+                            </div>
+                        </div>
+                        <button class="arrow" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+                            <i class="bi bi-caret-right-fill white"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-flex flex-column justify-content-center text-center">
+                    <h4 class="primary fw-bold mb-4">Visitá todas nuestras<br />sucursales</h4>
+                    <p class="primary">Hoy en día contamos con cuatro<br />locales en diferentes partes de<br />Buenos Aires.</p>
+                    <Link to="/sucursales" class="button-hover-white white text-decoration-none d-flex justify-content-center">
+                        <p class="fw-bold fst-italic pe-2">Sucursales</p>
+                        <i class="bi bi-box-arrow-up-right fw-bold"></i>
+                    </Link>
+                </div>
+            </div>
+
         </body>
     )
 }
