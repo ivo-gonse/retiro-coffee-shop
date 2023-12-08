@@ -4,6 +4,10 @@ import { useEffect } from "react";
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './components/Home.jsx'
+import Productos from "./components/Productos.jsx";
+import Contacto from "./components/Contacto.jsx";
+import QuienesSomos from "./components/QuienesSomos.jsx";
+import Sucursales from "./components/Sucursales.jsx";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -22,6 +26,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/productos' element={<Productos />} />
+        <Route path='/contacto' element={<Contacto />} />
+        <Route path='/quienes-somos' element={<QuienesSomos />} />
+        <Route path='/sucursales' element={<Sucursales />} />
       </Routes>
       <Footer />
     </BrowserRouter>

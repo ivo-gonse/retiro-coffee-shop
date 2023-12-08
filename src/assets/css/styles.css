@@ -63,6 +63,16 @@ h5{
     height: 400px !important;
     padding-top: 130px;
 }
+.volver-al-menu {
+    font-size: 19px !important;
+    font-weight: 600 !important;
+}
+.volver-al-menu:hover {
+    color: #d9a777;
+}
+#no-margin {
+    margin-bottom: 0 !important;
+}
 
 /* BUTTONS */
 
@@ -113,6 +123,9 @@ footer{
     .banner-1 {
         height: 370px !important;
     }
+    .volver-al-menu {
+        font-size: 17px !important;
+    }
 
     /* FOOTER */
 
@@ -155,6 +168,9 @@ footer{
     .banner-1 {
         height: 290px !important;
         padding-top: 90px;
+    }
+    .volver-al-menu {
+        font-size: 15px !important;
     }
 
     /* FOOTER */
