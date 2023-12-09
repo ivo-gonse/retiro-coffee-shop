@@ -1,0 +1,76 @@
+/* FORMAT */
+
+.img-sucursal-1 {
+    width: 400px;
+    margin-top: -30px;
+    transform: translateY(43px);
+}
+#sucursales .card-description-1 {
+    width: 460px;
+}
+.location {
+    font-size: 26px;
+}
+#sucursales {
+    width: 99%;
+    max-width: 1060px;
+}
+#sucursales p{
+    font-size: 20px;
+    margin-bottom: 5px !important;
+    font-weight: 600;
+}
+
+/* BACKGROUNDS */
+
+#bg-banner-sucursales {
+    background-image: url(../background/bg-banner-4-lg.jpg);
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 992px) {
+    
+    /* FORMAT */
+
+    /* BACKGROUNDS*/
+
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 575px) {
+    
+    /* FORMAT */
+
+    .img-sucursal-1 {
+        width: 240px;
+        margin-top: -10px;
+        transform: translateY(45px);
+    }
+    #sucursales .card-description-1 {
+        width: 280px;
+    }
+    .name {
+        font-size: 18px;
+    }
+    #sucursales {
+        width: 99%;
+        max-width: 1060px;
+    }
+    #sucursales p{
+        font-size: 16px;
+        margin-bottom: 5px !important;
+        font-weight: 600;
+    }
+    #horarios {
+        font-size: 15px;
+    }
+
+    /* BACKGROUNDS*/
+
+    #bg-banner-sucursales {
+        background-image: url(../background/bg-banner-4-xs.jpg);
+    }
+
+}
