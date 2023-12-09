@@ -1,0 +1,27 @@
+/* FORMAT */
+
+.content-1 p {
+    font-size: 18px;
+    max-width: 900px;
+}
+#img-cafeteria {
+    max-width: 100%;
+}
+
+/* BACKGROUNDS */
+
+#bg-banner-quienes-somos {
+    background-image: url(../background/bg-banner-1-lg.jpg);
+}
+
+/* ------------------------------------------ */
+
+@media (max-width: 575px) {
+    
+    /* BACKGROUNDS*/
+
+    #bg-banner-quienes-somos {
+        background-image: url(../background/bg-banner-1-xs.jpg);
+    }
+
+}
